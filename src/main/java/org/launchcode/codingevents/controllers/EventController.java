@@ -53,7 +53,6 @@ public class EventController {
             model.addAttribute("title", "All Events");
             model.addAttribute("events", eventRepository.findAll());
         }
-
         return "events/index";
     }
 
